@@ -1,0 +1,13 @@
+{
+  "name": "iric-chief-of-staff",
+  "owner": { "name": "Iric Chen" },
+  "metadata": { "description": "A personal AI chief of staff for Claude Cowork: one setup interview, plain-text memory you own." },
+  "plugins": [
+    {
+      "name": "chief-of-staff",
+      "source": "./plugins/chief-of-staff",
+      "description": "Setup interview, start my day, wrap up, and remember that. Memory lives in plain files in your project folder.",
+      "version": "0.2.0"
+    }
+  ]
+}
