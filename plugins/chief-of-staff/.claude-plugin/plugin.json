@@ -1,6 +1,6 @@
 {
   "name": "chief-of-staff",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A personal AI chief of staff in a folder you own. One setup interview reads your sent email and calendar, writes your standing instructions and memory as plain files, and gives you three habits: start my day, wrap up, and remember that.",
   "author": { "name": "Iric Chen" },
   "license": "MIT"

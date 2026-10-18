@@ -4,7 +4,7 @@ description: Set up a personal AI chief of staff in the current folder. Use when
 ---
 
 Rules that override anything below:
-- Their files must live in a folder **on their own computer**, so they can open, read and keep them. Never build the setup in a cloud-only workspace (Step 1 checks this).
+- Their files should live in a folder **on their own computer**, so they can open, read and keep them. You set this up for them in Step 1; never ask them to create or attach folders themselves.
 - If `CLAUDE.md` already exists in that folder, do not overwrite it. Say what is already set up and offer to improve one part.
 - If they give several answers at once, use them and ask only what is still missing. Never skip Step 3: build every file and folder listed there exactly.
 - Never send, accept, delete or pay for anything during setup. Draft only.
@@ -14,10 +14,10 @@ You are setting up a personal AI chief of staff for this person. Follow the step
 
 ## Step 1: Check what you can reach
 
-1. **A folder on their computer.** Check whether this project has a folder on their own computer attached (a path like `/Users/<name>/…` on a Mac or `C:\Users\<name>\…` on Windows) and that you can create a file in it.
-   - If there is none, or you can only write to a cloud workspace, tell them exactly this, then wait:
-     "So your chief of staff's files live on your own computer, give me a folder: open this project's settings and add a folder (for example, make a new folder called **Chief of Staff** in Documents). Or drag that folder from Finder or File Explorer into this chat. Tell me when it's done."
-   - Once you can write there, create `CLAUDE.md` as a one-line placeholder and tell them the full path, so they know where everything will live.
+1. **A folder on their computer (you handle this; they never make folders).** Check whether a folder on their own computer is already attached (a path like `/Users/<name>/…` or `C:\Users\<name>\…`) and that you can create a file in it.
+   - If not, use your tool for requesting access to a folder on their computer (for example `request_cowork_directory` or `request_folder_access`); it opens a folder picker on their screen. Say just: "A window will pop up: choose **Documents**, click **New Folder**, call it **Chief of Staff**, then click **Open**."
+   - If you have no such tool, don't block: build everything in this project's own workspace, and tell them in one line that their files are saved in the project and can be downloaded later.
+   - Once you can write, create `CLAUDE.md` as a one-line placeholder and tell them where their files live.
 2. **Email and calendar.** Check whether you have Gmail and Google Calendar tools.
    - If you don't, tell them exactly this, then wait:
      "To let me read your email and calendar, go to **Customize → Connectors** and connect **Gmail** and **Google Calendar**. Google will show its usual permission screen; click Allow. Tell me when that's done, or say 'skip'."
