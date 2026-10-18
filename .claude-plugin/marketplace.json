@@ -7,7 +7,7 @@
       "name": "chief-of-staff",
       "source": "./plugins/chief-of-staff",
       "description": "Setup interview, start my day, wrap up, and remember that. Memory lives in plain files in your project folder.",
-      "version": "0.2.0"
+      "version": "0.3.0"
     }
   ]
 }
